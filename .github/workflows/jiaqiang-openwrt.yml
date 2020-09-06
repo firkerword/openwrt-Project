@@ -115,7 +115,7 @@ jobs:
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
         name: OpenWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
-        path: openwrt/bin
+        path: openwrt/bin/packages/x86_64
 
     - name: Upload bin to cowtransfer
       if: env.DEBUG_MODEL == 'false' &&  steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_COWTRANSFER == 'true' && !cancelled()
