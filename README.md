@@ -1,4 +1,4 @@
-# OpenWrt21.02-X86-64云编译项目
+# OpenWrt24.10-X86-64云编译项目
 
 ## 固件来源
 
@@ -14,9 +14,9 @@ istoreOS源码地址: https://github.com/istoreos
 
 ## 固件说明
 
-源码内核版本，***5.4***版
+源码内核版本，***6.6***版
 
-openwrt源码版本，***openwrt-21.02***
+openwrt源码版本，***openwrt-24.10***
 
 支持IPV6
 
